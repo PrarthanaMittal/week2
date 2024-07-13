@@ -1,0 +1,49 @@
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.card {
+  background-color: inherit;
+  color: inherit;
+}
+
+.form-control {
+  background-color: inherit;
+  color: inherit;
+  border-color: inherit;
+}
+
+.btn-success {
+  margin-top: 10px;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #4caf50;
+}
+body.light .note-card {
+  background-color: #f5f5dc; 
+  color: #000000; 
+}
+
+body.light .note-card .card-title,
+body.light .note-card .card-text {
+  color: inherit; 
+}
+
+body.dark .note-card {
+  background-color: #800080; 
+  color: #ffffff; 
+}
+
+body.dark .note-card .card-title,
+body.dark .note-card .card-text {
+  color: inherit; 
+}
+/* #5a36a1 
+rgb(254, 254, 231) */
